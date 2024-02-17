@@ -3,9 +3,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://stevenmcelligott.github.io/starlight',	
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'DaSnipe's Docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
